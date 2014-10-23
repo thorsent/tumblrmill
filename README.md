@@ -61,9 +61,9 @@ Bandzoogle really makes it easy for bands to create websites but there is no bui
 4. Paste this code
 ```
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<link rel="stylesheet" href="http://old.bandcalledmill.com/tumblrmill/tumblr.css">
+<link rel="stylesheet" href="http://old.bandcalledmill.com/tumblrmill/tumblrmill.css">
 <div id="tumblrmill" data-blog="bandcalledmill.tumblr.com" data-height="1024" data-posts="20"></div>
-<script src="http://old.bandcalledmill.com/tumblrmill/tumblr.js"></script>
+<script src="http://old.bandcalledmill.com/tumblrmill/tumblrmill.js"></script>
 ```
 5. Change the data-blog attribute to your blog name (example: myband.tumblr.com)
 
