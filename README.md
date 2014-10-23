@@ -44,8 +44,8 @@ That's all that should be necessary!
 ---
 *If you don't have access to a webserver to host the js and css files (for instance if you're using bandzoogle) then you can use the versions hosted off of our site at old.bandcalledmill.com:*
 ```
-<link rel="stylesheet" href="http://old.bandcalledmill.com/tumblmill/tumblrmill.css">
-<script src="http://old.bandcalledmill.com/tumblmill/tumblrmill.js"></script>
+<link rel="stylesheet" href="http://old.bandcalledmill.com/tumblrmill/tumblrmill.css">
+<script src="http://old.bandcalledmill.com/tumblrmill/tumblrmill.js"></script>
 ```
 
 ---
