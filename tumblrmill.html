@@ -1,0 +1,30 @@
+<!--
+Very basic sample html file for including tumblrmill. You'll want to copy these html elements into your website's html.
+-->
+
+<html>
+<head>
+<!-- include jquery if your site doesn't already -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- this font contains the "clock" image -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+<!-- override this css as you see fit -->
+<link rel="stylesheet" href="tumblrmill.css">
+</head>
+<body>
+
+<!-- Include a div with id="tumblrmill" and then the tumblrmill.js script afterward.
+data-blog should be your tumblr blog (usually in the form blah.tumblr.com)
+data-height is optional height in pixels at which blog entries stop being appended.
+data-posts is optionally the maximum number of posts to retrieve
+-->
+<div id="tumblrmill" style="width:500px;" data-blog="bandcalledmill.tumblr.com" data-height="2048" data-posts="20"></div>
+<script src="tumblrmill.js"></script>
+
+<!--- optional footer -->
+<div class="mill-footer"><a href="http://bandcalledmill.tumblr.com" target="_blank" class="mill-footer">Read More...</a></div>
+
+</body>
+</html>
