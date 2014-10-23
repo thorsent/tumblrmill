@@ -1,6 +1,6 @@
-  var Tumblr = Tumblr || {};
+  var TumblrMill = TumblrMill || {};
 
-  Tumblr.recentPosts = function(config) {
+  TumblrMill.recentPosts = function(config) {
     var el=config.el;
     var postsCount=config.posts;
     var maxSize=config.height;
@@ -165,5 +165,5 @@
     config.height=parseInt(el[0].getAttribute("data-height"));
     if(config.posts==0) config.posts=null;
     if(config.height==0) config.height=null;
-    Tumblr.recentPosts(config).render();
+    TumblrMill.recentPosts(config).render();
   }
