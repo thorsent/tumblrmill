@@ -81,9 +81,11 @@
           };
         }
       }else if(post.type=="link"){
-        var a=newChild(li, "a", "", post.title);
-        a.href=post.url;
-        a.target="_blank";
+        if(!post.title || post.title==""){
+          var a=newChild(li, "a", "mill-title", post.url);
+          a.href=post.url;
+          a.target="_blank";
+        }
 
         newChild(li, "div", "mill-link", post.description);
       }else if(post.type=="quote"){
